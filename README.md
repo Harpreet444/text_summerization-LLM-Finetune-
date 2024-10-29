@@ -7,16 +7,6 @@ This application utilizes pre-trained NLP models for text summarization tasks, s
 - **Summarization Models**: Supports BART, T5, and PEGASUS, allowing for flexible summarization options.
 - **Custom Model Paths**: Load pre-trained models and tokenizers from specified local paths for customized use.
 
-## Requirements
-
-- **Python** 3.8+
-- **Libraries**: `streamlit`, `torch`, `transformers`
-
-Install the required libraries using:
-```bash
-pip install streamlit torch transformers
-
-
 ## Model Evaluation Metrics
 
 ### BERT
@@ -67,3 +57,15 @@ pip install streamlit torch transformers
 - **Precision**: 0.6231
 - **Recall**: 0.4894
 - **F1 Score**: 0.5281
+
+
+## Requirements
+
+- **Python** 3.8+
+- **Libraries**: `streamlit`, `torch`, `transformers`
+
+Install the required libraries using:
+```bash
+pip install streamlit torch transformers
+
+
